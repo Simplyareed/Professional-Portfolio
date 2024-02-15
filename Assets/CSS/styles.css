@@ -1,0 +1,111 @@
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #541380;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: rgb(143, 143, 142);
+}
+
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+.section-details {
+    display: inline-block;
+    border-right: 5px solid;
+    margin-right: 35px;
+    font-size: 48px;
+    color: slategray (49, 49, 92);
+    text-align: right;
+    flex-basis: 25%;
+    padding: 30px;
+}
+
+section {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+
+a {
+    color: slategray;
+    font-size: 24px;
+}
+
+/* .hero {
+    height: 850px;
+    width: 40%;
+    margin-bottom: 25px;
+    background-image: url("../images/Portrait.jpg");
+    background-size: cover;
+    background-position: center;
+} */
+.title {
+    display: inline-block;
+    border-right: 5px solid;
+    margin-right: 35px;
+    font-size: 48px;
+    color: slategray (92, 49, 66);
+    text-align: right;
+    flex-basis: 25%;
+    padding: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+
+}
+.flex-item-one  {
+        flex: 1 0 100%;
+        background-color: yellow;
+        margin: 50px;
+        padding: 10px;
+     
+
+}
+
+.flex-item {
+    background-color: yellow;
+    margin: 50px;
+    padding: 10px;
+    flex: 1 0 30%;
+    
+}
+
+
+#AboutMe {
+    scroll-behavior: smooth;
+}
+
+#Work {
+    scroll-behavior: smooth;
+}
+
+#ContactMe {
+    scroll-behavior: smooth;
+}
+
