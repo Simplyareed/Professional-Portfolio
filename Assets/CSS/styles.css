@@ -4,7 +4,7 @@
     background-color: #541380;
     color: #ffffff;
 }
-
+/* 
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -61,7 +61,7 @@ a {
     background-size: cover;
     background-position: center;
 } */
-.title {
+/* .title {
     display: inline-block;
     border-right: 5px solid;
     margin-right: 35px;
@@ -108,4 +108,4 @@ a {
 #ContactMe {
     scroll-behavior: smooth;
 }
-
+ */ 
